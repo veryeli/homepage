@@ -1,4 +1,6 @@
 Homepage::Application.routes.draw do
+  resources :blog_posts
+
   get "about_pages/home"
 
   get "about_pages/blog"
